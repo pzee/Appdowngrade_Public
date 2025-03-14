@@ -1,0 +1,40 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '15.0'
+workspace 'AppDowngrade.xcworkspace'
+# Comment the next line if you don't want to use dynamic frameworks
+use_frameworks!
+
+inhibit_all_warnings!
+# Pods for AppDowngrade
+
+source 'https://github.com/CocoaPods/Specs.git'  # 官方库
+
+def Release_pod()
+  pod 'SnapKit', '5.0.1' # AutoLayout
+  pod "ESTabBarController-swift", '2.8.0' #tabbarController组件
+  pod 'IQKeyboardManagerSwift', '6.5.9' #键盘弹出控制
+  pod 'Alamofire' #网络请求库(目前在NexusKit-Swift里面封装使用了)
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'FMDB','2.7.12'
+  pod 'SVProgressHUD','2.3.1'
+  pod 'SwipeCellKit'
+  pod 'Localize-Swift', '3.2.0'
+end
+
+
+target 'AppDowngrade' do
+  Release_pod()
+end
+  
+
+### 处理三方库编译设置
+post_install do |installer|
+    installer.generated_projects.each do |project|
+        project.targets.each do |target|
+            target.build_configurations.each do |config|
+                config.build_settings['IPHONEOS_DEPLOYMENT_TARGET'] = '15.0'
+            end
+        end
+    end
+end
