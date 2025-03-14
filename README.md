@@ -1,5 +1,3 @@
-好的，这是修改后的英文版 Markdown，同样进行了友好礼貌的润色，并拓展了友情链接的描述：
-
 # Appdowngrade
 
 ## Welcome to Appdowngrade!
