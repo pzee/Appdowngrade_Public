@@ -1,0 +1,69 @@
+PODS:
+  - Alamofire (5.10.2)
+  - ESTabBarController-swift (2.8.0)
+  - FMDB (2.7.12):
+    - FMDB/standard (= 2.7.12)
+  - FMDB/Core (2.7.12)
+  - FMDB/standard (2.7.12):
+    - FMDB/Core
+  - IQKeyboardManagerSwift (6.5.9)
+  - Localize-Swift (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore (= 3.2.0)
+    - Localize-Swift/UIKit (= 3.2.0)
+  - Localize-Swift/LocalizeSwiftCore (3.2.0)
+  - Localize-Swift/UIKit (3.2.0):
+    - Localize-Swift/LocalizeSwiftCore
+  - RxCocoa (6.9.0):
+    - RxRelay (= 6.9.0)
+    - RxSwift (= 6.9.0)
+  - RxRelay (6.9.0):
+    - RxSwift (= 6.9.0)
+  - RxSwift (6.9.0)
+  - SnapKit (5.0.1)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+  - SwipeCellKit (2.7.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - ESTabBarController-swift (= 2.8.0)
+  - FMDB (= 2.7.12)
+  - IQKeyboardManagerSwift (= 6.5.9)
+  - Localize-Swift (= 3.2.0)
+  - RxCocoa
+  - RxSwift
+  - SnapKit (= 5.0.1)
+  - SVProgressHUD (= 2.3.1)
+  - SwipeCellKit
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - ESTabBarController-swift
+    - FMDB
+    - IQKeyboardManagerSwift
+    - Localize-Swift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SnapKit
+    - SVProgressHUD
+    - SwipeCellKit
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  ESTabBarController-swift: 05593a6ad64700b03c0eb60ff625916370aa4136
+  FMDB: 728731dd336af3936ce00f91d9d8495f5718a0e6
+  IQKeyboardManagerSwift: 6e839c575c4aa1078d58a596e41244e77abe918f
+  Localize-Swift: 6f4475136bdb0d7b2882ea3d4ea919d70142b232
+  RxCocoa: ac16414696ae706516be3e1ab00fcce5bdc9be8a
+  RxRelay: 6b0c930e5cef57d5fe2032571e5e65b78e3cbdb1
+  RxSwift: 31649ace6aceeb422e16ff71c60804f9c3281ed9
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+  SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
+
+PODFILE CHECKSUM: 46a864204d6c0890d5ad450de27ed491eaaa589e
+
+COCOAPODS: 1.16.2

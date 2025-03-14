@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFFCC8047F0CB4284BE1B655 /* Pods_AppDowngrade.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA6FF20B91AE1FA29B5692B9 /* Pods_AppDowngrade.framework */; };
+		D7E5CE3A2D784B14003F8AFC /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = D7E5CE392D784B14003F8AFC /* Zip */; };
+		D7E5CE3D2D784B42003F8AFC /* Telegraph in Frameworks */ = {isa = PBXBuildFile; productRef = D7E5CE3C2D784B42003F8AFC /* Telegraph */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7A298392D77286D00F0223B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7A2981A2D77286B00F0223B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7A298212D77286B00F0223B;
+			remoteInfo = AppDowngrade;
+		};
+		D7A298432D77286D00F0223B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7A2981A2D77286B00F0223B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7A298212D77286B00F0223B;
+			remoteInfo = AppDowngrade;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72D38E1F0954F9A7B7D97D0D /* Pods-AppDowngrade.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDowngrade.debug.xcconfig"; path = "Target Support Files/Pods-AppDowngrade/Pods-AppDowngrade.debug.xcconfig"; sourceTree = "<group>"; };
+		83975A607C9130F483053980 /* Pods-AppDowngrade.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppDowngrade.release.xcconfig"; path = "Target Support Files/Pods-AppDowngrade/Pods-AppDowngrade.release.xcconfig"; sourceTree = "<group>"; };
+		D7A298222D77286B00F0223B /* AppDowngrade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppDowngrade.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A298382D77286D00F0223B /* AppDowngradeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppDowngradeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A298422D77286D00F0223B /* AppDowngradeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppDowngradeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA6FF20B91AE1FA29B5692B9 /* Pods_AppDowngrade.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppDowngrade.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		D7A2984A2D77286D00F0223B /* Exceptions for "AppDowngrade" folder in "AppDowngrade" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D7A298212D77286B00F0223B /* AppDowngrade */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		D7A298242D77286B00F0223B /* AppDowngrade */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				D7A2984A2D77286D00F0223B /* Exceptions for "AppDowngrade" folder in "AppDowngrade" target */,
+			);
+			path = AppDowngrade;
+			sourceTree = "<group>";
+		};
+		D7A2983B2D77286D00F0223B /* AppDowngradeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AppDowngradeTests;
+			sourceTree = "<group>";
+		};
+		D7A298452D77286D00F0223B /* AppDowngradeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AppDowngradeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7A2981F2D77286B00F0223B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7E5CE3D2D784B42003F8AFC /* Telegraph in Frameworks */,
+				D7E5CE3A2D784B14003F8AFC /* Zip in Frameworks */,
+				BFFCC8047F0CB4284BE1B655 /* Pods_AppDowngrade.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A298352D77286D00F0223B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A2983F2D77286D00F0223B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E1BEB7807B054429C75C259 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA6FF20B91AE1FA29B5692B9 /* Pods_AppDowngrade.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7A298192D77286B00F0223B = {
+			isa = PBXGroup;
+			children = (
+				D7A298242D77286B00F0223B /* AppDowngrade */,
+				D7A2983B2D77286D00F0223B /* AppDowngradeTests */,
+				D7A298452D77286D00F0223B /* AppDowngradeUITests */,
+				D7A298232D77286B00F0223B /* Products */,
+				E13F6BE314928986A91252B6 /* Pods */,
+				6E1BEB7807B054429C75C259 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D7A298232D77286B00F0223B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7A298222D77286B00F0223B /* AppDowngrade.app */,
+				D7A298382D77286D00F0223B /* AppDowngradeTests.xctest */,
+				D7A298422D77286D00F0223B /* AppDowngradeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E13F6BE314928986A91252B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72D38E1F0954F9A7B7D97D0D /* Pods-AppDowngrade.debug.xcconfig */,
+				83975A607C9130F483053980 /* Pods-AppDowngrade.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7A298212D77286B00F0223B /* AppDowngrade */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A2984B2D77286D00F0223B /* Build configuration list for PBXNativeTarget "AppDowngrade" */;
+			buildPhases = (
+				10232664742EC3F7299853AF /* [CP] Check Pods Manifest.lock */,
+				D7A2981E2D77286B00F0223B /* Sources */,
+				D7A2981F2D77286B00F0223B /* Frameworks */,
+				D7A298202D77286B00F0223B /* Resources */,
+				E62AF1317ABE10BF6EED910A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				D7A298242D77286B00F0223B /* AppDowngrade */,
+			);
+			name = AppDowngrade;
+			productName = AppDowngrade;
+			productReference = D7A298222D77286B00F0223B /* AppDowngrade.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7A298372D77286D00F0223B /* AppDowngradeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A298502D77286D00F0223B /* Build configuration list for PBXNativeTarget "AppDowngradeTests" */;
+			buildPhases = (
+				D7A298342D77286D00F0223B /* Sources */,
+				D7A298352D77286D00F0223B /* Frameworks */,
+				D7A298362D77286D00F0223B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7A2983A2D77286D00F0223B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D7A2983B2D77286D00F0223B /* AppDowngradeTests */,
+			);
+			name = AppDowngradeTests;
+			productName = AppDowngradeTests;
+			productReference = D7A298382D77286D00F0223B /* AppDowngradeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7A298412D77286D00F0223B /* AppDowngradeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A298532D77286D00F0223B /* Build configuration list for PBXNativeTarget "AppDowngradeUITests" */;
+			buildPhases = (
+				D7A2983E2D77286D00F0223B /* Sources */,
+				D7A2983F2D77286D00F0223B /* Frameworks */,
+				D7A298402D77286D00F0223B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7A298442D77286D00F0223B /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				D7A298452D77286D00F0223B /* AppDowngradeUITests */,
+			);
+			name = AppDowngradeUITests;
+			productName = AppDowngradeUITests;
+			productReference = D7A298422D77286D00F0223B /* AppDowngradeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7A2981A2D77286B00F0223B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					D7A298212D77286B00F0223B = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					D7A298372D77286D00F0223B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D7A298212D77286B00F0223B;
+					};
+					D7A298412D77286D00F0223B = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = D7A298212D77286B00F0223B;
+					};
+				};
+			};
+			buildConfigurationList = D7A2981D2D77286B00F0223B /* Build configuration list for PBXProject "AppDowngrade" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = D7A298192D77286B00F0223B;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				D7E5CE382D784B14003F8AFC /* XCRemoteSwiftPackageReference "Zip" */,
+				D7E5CE3B2D784B42003F8AFC /* XCRemoteSwiftPackageReference "Telegraph" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = D7A298232D77286B00F0223B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7A298212D77286B00F0223B /* AppDowngrade */,
+				D7A298372D77286D00F0223B /* AppDowngradeTests */,
+				D7A298412D77286D00F0223B /* AppDowngradeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7A298202D77286B00F0223B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A298362D77286D00F0223B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A298402D77286D00F0223B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10232664742EC3F7299853AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppDowngrade-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E62AF1317ABE10BF6EED910A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppDowngrade/Pods-AppDowngrade-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppDowngrade/Pods-AppDowngrade-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppDowngrade/Pods-AppDowngrade-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7A2981E2D77286B00F0223B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A298342D77286D00F0223B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A2983E2D77286D00F0223B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7A2983A2D77286D00F0223B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7A298212D77286B00F0223B /* AppDowngrade */;
+			targetProxy = D7A298392D77286D00F0223B /* PBXContainerItemProxy */;
+		};
+		D7A298442D77286D00F0223B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7A298212D77286B00F0223B /* AppDowngrade */;
+			targetProxy = D7A298432D77286D00F0223B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D7A2984C2D77286D00F0223B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72D38E1F0954F9A7B7D97D0D /* Pods-AppDowngrade.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = F95CWJ8H65;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppDowngrade/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Appdown;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To securely store your Apple ID authentication information, biometric authentication is required.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = NO;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkk.AppDowngrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = wild_dev;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7A2984D2D77286D00F0223B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83975A607C9130F483053980 /* Pods-AppDowngrade.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = F95CWJ8H65;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AppDowngrade/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Appdown;
+				INFOPLIST_KEY_NSFaceIDUsageDescription = "To securely store your Apple ID authentication information, biometric authentication is required.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = NO;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mkk.AppDowngrade;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = wild_dev;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D7A2984E2D77286D00F0223B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7A2984F2D77286D00F0223B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7A298512D77286D00F0223B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F95CWJ8H65;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcy.AppDowngradeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppDowngrade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppDowngrade";
+			};
+			name = Debug;
+		};
+		D7A298522D77286D00F0223B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F95CWJ8H65;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcy.AppDowngradeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppDowngrade.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AppDowngrade";
+			};
+			name = Release;
+		};
+		D7A298542D77286D00F0223B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F95CWJ8H65;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcy.AppDowngradeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppDowngrade;
+			};
+			name = Debug;
+		};
+		D7A298552D77286D00F0223B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F95CWJ8H65;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mcy.AppDowngradeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppDowngrade;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7A2981D2D77286B00F0223B /* Build configuration list for PBXProject "AppDowngrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A2984E2D77286D00F0223B /* Debug */,
+				D7A2984F2D77286D00F0223B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A2984B2D77286D00F0223B /* Build configuration list for PBXNativeTarget "AppDowngrade" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A2984C2D77286D00F0223B /* Debug */,
+				D7A2984D2D77286D00F0223B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A298502D77286D00F0223B /* Build configuration list for PBXNativeTarget "AppDowngradeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A298512D77286D00F0223B /* Debug */,
+				D7A298522D77286D00F0223B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A298532D77286D00F0223B /* Build configuration list for PBXNativeTarget "AppDowngradeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A298542D77286D00F0223B /* Debug */,
+				D7A298552D77286D00F0223B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D7E5CE382D784B14003F8AFC /* XCRemoteSwiftPackageReference "Zip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Zip.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.2;
+			};
+		};
+		D7E5CE3B2D784B42003F8AFC /* XCRemoteSwiftPackageReference "Telegraph" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Building42/Telegraph";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.40.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D7E5CE392D784B14003F8AFC /* Zip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7E5CE382D784B14003F8AFC /* XCRemoteSwiftPackageReference "Zip" */;
+			productName = Zip;
+		};
+		D7E5CE3C2D784B42003F8AFC /* Telegraph */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D7E5CE3B2D784B42003F8AFC /* XCRemoteSwiftPackageReference "Telegraph" */;
+			productName = Telegraph;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = D7A2981A2D77286B00F0223B /* Project object */;
+}
